@@ -85,6 +85,7 @@ To compile brlaser you'll need CMake and the CUPS development packages
 Get the code by cloning the git repo <!-- or downloading the [latest
 release] -->. Compile and install with these commands:
 
+    sudo apt-get install libcups2-dev
     cmake .
     make
     sudo make install
